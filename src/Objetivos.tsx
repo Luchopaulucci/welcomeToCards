@@ -67,9 +67,9 @@ export default function Objetivos() {
 
       {/* Grid de Objetivos */}
       <div className="w-full max-w-6xl flex-1 flex flex-col min-h-0">
-        <div className="flex flex-col md:grid md:grid-cols-3 gap-4 md:gap-8 flex-1 h-full items-stretch justify-center md:content-center min-h-0 overflow-y-auto md:overflow-hidden pb-6 md:pb-0">
+        <div className="flex flex-col md:grid md:grid-cols-3 gap-2 md:gap-8 flex-1 h-full items-stretch justify-center md:content-center min-h-0">
           {[1, 2, 3].map((num, i) => (
-            <div key={num} className="relative flex-[0_0_auto] min-h-[40vh] md:min-h-0 md:flex-1 w-full md:h-full md:max-h-[70vh] max-w-sm mx-auto flex items-center justify-center">
+            <div key={num} className="relative flex-1 min-h-0 w-full md:h-full md:max-h-[70vh] max-w-sm mx-auto flex items-center justify-center overflow-hidden">
               {currentObjectives[i] ? (
                 <img 
                   src={currentObjectives[i]!} 

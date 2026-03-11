@@ -91,7 +91,7 @@ export default function MazoJuego() {
   const isGameOver = remaining === 0;
 
   return (
-    <div className="h-[100dvh] overflow-hidden bg-slate-50 flex flex-col items-center p-2 pb-4 md:p-8">
+    <div className="h-full overflow-hidden bg-slate-50 flex flex-col items-center p-2 pb-4 md:p-8">
       {/* Controles Info */}
       <div className="w-full max-w-6xl flex justify-between items-center mb-2 md:mb-8 bg-white p-2 px-3 md:p-5 rounded-xl md:rounded-2xl shadow-sm border border-slate-200 shrink-0">
         <div className="font-bold text-slate-600 text-sm md:text-xl">
